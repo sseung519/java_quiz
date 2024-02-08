@@ -1,6 +1,6 @@
 package ch03;
 
-public class Quiz7 {
+public class Quiz07 {
     public static void main(String[] args) {
         double x = 5.0;
         double y = 0.0;

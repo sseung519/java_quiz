@@ -29,3 +29,11 @@ B
 src/ch03/ch13.java,9/2/926c1cb0e4729bc2b813b9dab6cfc907f326ffd9
 D
 src/ch03/Quiz13.java,3/7/37a2ad53fefa8380bbd2483459e50deda0f34de2
+D
+src/ch03/Quiz06.java,e/7/e74840374b0c3c14ecb206971a05e7085823459c
+D
+src/ch03/Quiz07.java,5/d/5daaf127fd7385286d0feb66ba09dfc8d799a893
+D
+src/ch03/Quiz08.java,7/7/777bd7815ce4e491e799be5bf4ec4260fd271fbc
+D
+src/ch03/Quiz09.java,b/4/b4444d4e511ab612c704e06c83a89a70310667da

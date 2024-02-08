@@ -1,6 +1,6 @@
 package ch03;
 
-public class Quiz6 {
+public class Quiz06 {
     public static void main(String[] args) {
         //예상 true, false
         int x = 10;
