@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôğôöùÿÿÿÿ8íÆÊ¸Ø1
+\
+java:S1854":Remove this useless assignment to local variable "height".(”›–‚üÿÿÿÿ8ñÆÊ¸Ø1
+b
+java:S1854"@Remove this useless assignment to local variable "lengthBottom".(ìï…¾øÿÿÿÿ8ñÆÊ¸Ø1
+Y
+java:S1854"=Remove this useless assignment to local variable "lengthTop".(‘„8ñÆÊ¸Ø1
+J
+java:S1481".Remove this unused "lengthTop" local variable.(‘„8òÆÊ¸Ø1
+S
+java:S1481"1Remove this unused "lengthBottom" local variable.(ìï…¾øÿÿÿÿ8òÆÊ¸Ø1
+M
+java:S1481"+Remove this unused "height" local variable.(”›–‚üÿÿÿÿ8òÆÊ¸Ø1
+X	java:S125	"<This block of commented-out lines of code should be removed.(ˆ¶úÕ8ÛÒË¸Ø1

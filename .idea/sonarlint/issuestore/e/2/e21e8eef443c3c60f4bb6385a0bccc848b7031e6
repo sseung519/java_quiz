@@ -1,0 +1,5 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôðôöùÿÿÿÿ
+K
+java:S1940")Use the opposite operator ("<=") instead.(‹‹¼‡ÿÿÿÿÿ8ÿã‘¸Ø1
+L	java:S106"+Replace this use of System.out by a logger.(®ýáëûÿÿÿÿ8ÿã‘¸Ø1
