@@ -2,13 +2,15 @@ package ch04;
 
 public class Quiz08 {
     public static void main(String[] args) {
-        for(int i = 1; i<=5; i++){
-            i+= i;
-            System.out.print(i);
-            for(int t=1; t<=5; t++){
-                t+=t;
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+                if (j == i) {
+                    System.out.println();
+                }
             }
-            System.out.println(i);
         }
     }
 }
+
+
