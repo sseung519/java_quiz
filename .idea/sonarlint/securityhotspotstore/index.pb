@@ -37,3 +37,11 @@ D
 src/ch03/Quiz08.java,7/7/777bd7815ce4e491e799be5bf4ec4260fd271fbc
 D
 src/ch03/Quiz09.java,b/4/b4444d4e511ab612c704e06c83a89a70310667da
+D
+src/ch03/Quiz01.java,f/1/f1802a738465dbbaca4fe6bf67072cb756f5d7f9
+D
+src/ch03/Quiz02.java,8/d/8de7ce593ade5fe888016b268c96a22bf1a5125a
+D
+src/ch03/Quiz03.java,7/7/77b173086636964728287ac80afcfb7597b8e849
+D
+src/ch03/Quiz04.java,b/6/b6a63f2ed30c27f091524caa21b54f62bc784ad2
