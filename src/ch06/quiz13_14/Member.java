@@ -1,4 +1,4 @@
-package ch06.Quiz13_14;
+package ch06.quiz13_14;
 
 public class Member {
     String name;
