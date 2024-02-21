@@ -101,9 +101,11 @@ public class CustomerApplication {
             System.out.println("고객 정보가 등록되지 않았습니다.");
             return;
         }
-        if (customer.getTotalPoint() < point) {
+        if( point < 500) {
+            System.out.println("500점 이상 사용 가능합니다.");
+        }else if (customer.getTotalPoint() < point) {
             System.out.println("포인트가 부족합니다. 보유하신 포인트는: " + customer.getTotalPoint() + "점 입니다.");
-        } else if (point < customer.getTotalPoint()) {
+        } else {
             customer.setTotalPoint(customer.getTotalPoint() - point);
             System.out.println(point + "점 사용하였습니다. 남은 포인트는: " + customer.getTotalPoint() + "점 입니다.");
         }
@@ -130,7 +132,7 @@ public class CustomerApplication {
         if (point < 2000) {
             customer.setTotalPoint(customer.getTotalPoint() + point);
             System.out.println("적립 완료 되었습니다. 현재 포인트: " + customer.getTotalPoint());
-        } else if (2000 <= point) {
+        } else {
             customer.setTotalPoint(customer.getTotalPoint() + (long) (point * 1.1));
             System.out.println("적립 완료 되었습니다. 현재 포인트: " + customer.getTotalPoint());
         }
