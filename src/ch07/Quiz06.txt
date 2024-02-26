@@ -1,0 +1,20 @@
+6. Parent 클래스를 상속해서 Child 클래스를 다음과 같이 작성했는데, Child 생성자에서 컴파일
+에러가 발생했습니다. 그 이유와 해결 방법을 설명해보세요.
+
+public class Parent {
+   public String name;
+
+   public Parent(String name) {
+        this.name = name;
+   }
+}
+
+public class Child extends Parent {
+   public int studentNo;
+
+   public Child(String name, int studentNo) {
+       this.name = name; <=오류 부분
+       this.studentNo = studentNo;
+   }
+}
+부모 클래스에서 가져올땐 super를 써야한다 => super(name)

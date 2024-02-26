@@ -1,0 +1,14 @@
+
+10. 다음과 같이 작성한 Computer 클래스에서 컴파일 에러가 발생했습니다. 그 이유를 설명해보세요.
+
+
+public abstract class Machine {
+   public void powerOn() { }
+   public void powerOff() { }
+   public abstract void work();
+}
+public class Computer extends Machine {
+
+}
+
+이유: 추상형객체의 자식은 오버라이드로 추상 메소드를 반드시 써야함.
