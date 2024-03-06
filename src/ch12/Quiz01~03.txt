@@ -1,0 +1,21 @@
+답: 4번
+1. API 도큐먼트에 대한 설명으로 틀린 것은 무엇입니까?
+➊ 자바 표준 라이브러리를 프로그램에서 어떻게 사용할 수 있는지를 설명하고 있다.
+➋ 클래스의 상속 관계 및 자식 클래스들이 무엇이 있는지 알 수 있다.
+➌ 생성자 선언부, 필드의 타입, 메소드의 선언부를 확인할 수 있다.
+➍ public, protected, default, private 접근 제한을 가지는 멤버들을 확인할 수 있다.
+
+답:2번
+2. Object 클래스에 대한 설명 중 틀린 것은 무엇입니까?
+➊ 모든 자바 클래스의 최상위 부모 클래스이다.
+➋ Object의 equals ( ) 메소드는 == 연산자와 동일하게 번지를 비교한다.
+➌ Object의 hashCode( ) 메소드는 동등 비교 시 활용된다.
+➍ Object의 toString ( ) 메소드는 객체의 필드값을 문자열로 리턴한다.
+
+3. Member 클래스에서 Object의 toString ( ) 메소드를 오버라이딩해서 MemberExample 클래
+스의 실행 결과처럼 나오도록 작성해보세요.
+
+ @Override
+    public String toString() {
+        return name;
+    }
