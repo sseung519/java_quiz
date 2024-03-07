@@ -19,7 +19,7 @@ public class Quiz07 {
         Integer obj3 = 300;
         Integer obj4 = 300;
 
-        System.out.println(obj1 == obj2); //-128~127사이의 값이라 자동으로 값을 비교
+        System.out.println(obj1 == obj2); //-127~128사이의 값이라 자동으로 값을 비교
         System.out.println(obj3.equals(obj4)); //그 이상의 값이라 .equals를 사용하여 값 자체를 비교해줘야함
 
     }
